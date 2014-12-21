@@ -1,0 +1,9 @@
+Package: leafletDVF
+Type: Package
+Title: Leaflet DVF in Shiny applications
+Version: 0.1
+Author: Kevin Ma <kevinchenma@college.harvard.edu>
+Maintainer: Kevin Ma <kevinchenma@college.harvard.edu>, Jade Moon <jmoon@college.harvard.edu>
+Description: This package integrates Leaflet DVF maps into Shiny applications.
+License: GPL-3
+Imports: shiny (>= 0.6.0), RJSONIO
