@@ -90,7 +90,7 @@ leafletMap <- function(
   initialTileLayerAttribution = HTML('&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'),
   options=NULL) {
   
-  addResourcePath("leaflet", system.file("www", package="leaflet"))
+  addResourcePath("leaflet", system.file("www", package="leafletDVF"))
 
   if (is.numeric(width))
     width <- sprintf("%dpx", width)
